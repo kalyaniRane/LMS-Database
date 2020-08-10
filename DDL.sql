@@ -263,3 +263,17 @@ status boolean not null,
 creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
+
+create table app_parameter (
+id int not null primary key auto_increment,
+key_type varchar (10) not null,
+key_value varchar (6) not null,
+key_text varchar (8) not null,
+current_status varchar(2) not null,
+lastupd_user varchar (50) not null,
+lastupd_stamp datetime not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null,
+seq_number int not null
+);
+
