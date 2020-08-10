@@ -30,3 +30,11 @@ INSERT INTO `fellowship_candidate` VALUES
 (4,'Pritam','Laxman','Suryawanshi','pritam@gmail.com','Mumbai','BE Com','2020-07-05','9878529630',400001,'Banglore','Good','Good','Good','Good','2020-07-07','Kalyani','1996-12-12',1,'Laxman','Business','9874510147',150000,'sfdgs','shgdh','dhs/sg/dgdh','2019-12-20','joined','done','done','Done',1,'good'),
 (5,'Junaid','Istiyak','Ansari','junaid@gmail.com','Mumbai','BE Com','2020-05-29','9874563210',400043,'Mumbai','Good','Good','Good','Good','2020-07-01','Kalyani','1996-08-12',1,'Istiyak','Business','9874561230',100000,'abcd','abcd','abc/xyz','2020-07-15','joined','done','done','Done',1,'good'),
 (6,'Izhaan','Istiyak','Khan','izhaan@gmail.com','Mumbai','MCA','2020-06-30','9856223741',400043,'Mumbai','Good','Good','Good','Good','2020-07-01','Kalyani','1996-12-20',1,'Istiyak','Business','7894561237',100000,'wxyz','wxyz','pqr/qwe','2020-06-01','joined','done','done','Done',0,'good');
+
+INSERT INTO `candidate_bank_details` VALUES 
+(1,1,'Kalyani','124561311512',1,'SBIO2',1,'MNBYUI9',1,'878411346451',1,'2020-07-10','Kalyni'),
+(2,2,'Zaid','367100021154',1,'ICIC23',1,'AZDS2AS',1,'457894561232',1,'2020-07-10','Kalyni'),
+(3,3,'Pratiksha','789456123078',1,'BOB15',1,'QWER12',1,'123521587126',1,'2020-07-10','Kalyni'),
+(4,4,'Pritam','789456965451',1,'AXS01',1,'KJLHQ1W',1,'156465432132',1,'2020-07-10','Kalyni'),
+(5,5,'Junaid','123456789012',1,'BOB10',1,'BPQAA10',1,'541245784112',1,'2020-07-10','Kalyni'),
+(6,6,'Izhaan','655465412122',1,'ICIC12',1,'KJHYOSS',1,'446521321321',1,'2020-07-10','Kalyni');
