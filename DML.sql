@@ -94,3 +94,9 @@ INSERT INTO `lab` VALUES
 (1,'BridgeLabz','Mumbai','Malhotra Chambers',1,'2020-07-07','Kalyani'),
 (2,'BridgeLabz','Pune','Nal Stop',0,'2020-07-07','Kalyani'),
 (3,'BridgeLabz','Banglore','Indian Oil Nagar',1,'2020-07-07','Kalyani');
+
+INSERT INTO `lab_threshold` VALUES 
+(1,1,350,10,20,60,'A','2020-07-10','Kalyani'),
+(2,2,250,20,15,40,'A','2020-07-10','Kalyani'),
+(3,3,400,30,25,70,'A','2020-07-10','Kalyani');
+
