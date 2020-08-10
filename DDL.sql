@@ -286,3 +286,14 @@ status boolean not null,
 creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
+
+create table mentor (
+id int not null primary key auto_increment,
+name varchar (50) not null,
+mentor_type varchar (10) not null,
+lab_id int not null,
+foreign key (lab_id) references lab (id),
+status boolean not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
