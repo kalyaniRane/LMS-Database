@@ -152,6 +152,20 @@ creator_stamp datetime,
 creator_user varchar (200)
 );
 
+alter table candidate_bank_details modify id int not null auto_increment;
+alter table candidate_bank_details modify candidate_id int not null;
+alter table candidate_bank_details modify name varchar (200) not null; 
+alter table candidate_bank_details modify account_number varchar (200) not null; 
+alter table candidate_bank_details modify is_account_number_verified boolean not null; 
+alter table candidate_bank_details modify ifsc_code varchar (200) not null;
+alter table candidate_bank_details modify ifsc_code_verified boolean not null;
+alter table candidate_bank_details modify pan_number varchar (200) not null;
+alter table candidate_bank_details modify pan_number_verified boolean not null;
+alter table candidate_bank_details modify addhaar_number varchar (200) not null;
+alter table candidate_bank_details modify addhaar_number_verified boolean not null;
+alter table candidate_bank_details modify creator_stamp datetime not null;
+alter table candidate_bank_details modify creator_user varchar (200) not null;
+
 create table candidate_qualification(
 id int primary key ,
 candidate_id int,
