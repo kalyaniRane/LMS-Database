@@ -100,6 +100,40 @@ document_status boolean,
 remark varchar (200)
 );
 
+alter table fellowship_candidate modify id int not null auto_increment;
+alter table fellowship_candidate modify first_name varchar (200) not null;
+alter table fellowship_candidate modify middle_name varchar (200) not null;
+alter table fellowship_candidate modify last_name varchar (200) not null;
+alter table fellowship_candidate modify email_id varchar (200) not null;
+alter table fellowship_candidate modify hired_city varchar (200) not null;
+alter table fellowship_candidate modify degree varchar (200) not null;
+alter table fellowship_candidate modify hired_date datetime not null;
+alter table fellowship_candidate modify mobile_number varchar (10) not null;
+alter table fellowship_candidate modify permanent_pincode int not null;
+alter table fellowship_candidate modify hired_lab varchar (200) not null;
+alter table fellowship_candidate modify attitude varchar (200) not null;
+alter table fellowship_candidate modify communication_remark varchar (200) not null;
+alter table fellowship_candidate modify knowledge_remark varchar (200) not null;
+alter table fellowship_candidate modify aggregate_remark varchar (200) not null;
+alter table fellowship_candidate modify creator_stamp DATETIME not null;
+alter table fellowship_candidate modify creator_user varchar (200) not null;
+alter table fellowship_candidate modify birth_date date not null;
+alter table fellowship_candidate modify is_birth_date_verified boolean not null;
+alter table fellowship_candidate modify parent_name varchar (200) not null;
+alter table fellowship_candidate modify parent_occupation varchar (200) not null;
+alter table fellowship_candidate modify parents_mobile_number varchar (10) not null;
+alter table fellowship_candidate modify parents_anual_salary varchar (200) not null;
+alter table fellowship_candidate modify local_address varchar (200) not null;
+alter table fellowship_candidate modify parmanent_address varchar (200) not null;
+alter table fellowship_candidate modify photo_path varchar (200) not null;
+alter table fellowship_candidate modify joining_date date not null;
+alter table fellowship_candidate modify candidate_status varchar (200) not null;
+alter table fellowship_candidate modify personal_information varchar (200) not null;
+alter table fellowship_candidate modify bank_information varchar (200) not null;
+alter table fellowship_candidate modify educational_information varchar (200) not null;
+alter table fellowship_candidate modify document_status boolean not null;
+alter table fellowship_candidate modify remark varchar (200) not null;
+
 
 create table candidate_bank_details(
 id int primary key,
