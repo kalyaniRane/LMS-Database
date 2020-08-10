@@ -10,3 +10,15 @@ INSERT INTO `userdetails` VALUES
 (9,'gajanan@gmail.com','Gajanan','Desai','gaja@123','9638527410',1,'2020-04-30','kalyani'),
 (10,'junaid@gmail.com','Junaid','Ansari','abc@ac12','7894561231',1,'2020-02-12','kalyani'),
 (11,'pritam@gmail.com','Pritam','Suryawanshi','surya@1','8952827110',0,'2020-05-14','kalyani');
+
+INSERT INTO `hiredcandidate` VALUES 
+(1,'Kalyani','Sandesh','Rane','kalyanirane@gmail.com','Pune','BE Com','2020-07-02','7895209638',400078,'Pune','Good','Good','Good','Good','A','2020-07-03','Kalyani'),
+(2,'Zaid','Istiyak','Ansari','zaid@gmail.com','Pune','BE Com','2020-06-25','8956237411',400102,'Pune','Good','Good','Good','Good','A','2020-06-30','Kalyani'),
+(3,'Pratiksha','Kadam','Deshmukh','pratiksha@gmail.com','Mumbai','BE Com','2020-07-01','9632587410',400088,'Mumbai','Good','Excellent','Excellent','Good','A','2020-07-02','Kalyani'),
+(4,'Junaid','Istiyak','Ansari','junaid@gmail.com','Mumbai','BE Com','2020-05-29','7894561232',400043,'Mumbai','Good','Good','Good','Good','A','2020-05-29','Kalyani'),
+(5,'Gajanan','Aditya','Desai','gajanan@gmail.com','Mumbai','BE IT','2020-07-03','8956742323',400071,'Mumbai','Good','Good','Good','Good','A','2020-07-04','Kalyani'),
+(6,'pooja','Ram','Rao','pooja@gmail.com','Banglore','BE IT','2020-07-04','7889561512',400032,'Mumbai','Good','Good','Good','Good','A','2020-07-05','Kalyani'),
+(7,'Sumit','Shekhar','Gohil','sumit@gmail.com','Mumbai','BE com','2020-07-05','9874563210',400001,'Mumbai','Good','Good','Good','Good','A','2020-07-06','Kalyani'),
+(8,'Afreen','Sadiq','Mehra','mehra.afreen@gmail.com','Pune','MCA','2020-07-06','9856788912',400002,'Mumbai','Good','Good','Good','Good','A','2020-07-07','Kalyani'),
+(9,'Aftab','Ilyas','Shaikh','affy@gmail.com','Mumbai','MCA','2020-07-07','8655292685',400003,'Pune','Good','Good','Good','Good','A','2020-07-07','Kalyani'),
+(10,'Izhaan','Istiyak','Khan','izhaan@gmail.com','Pune','MCA','2020-07-08','8286548410',400002,'Pune','Good','Good','Good','Good','A','2020-07-08','Kalyani');
