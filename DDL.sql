@@ -88,4 +88,26 @@ creator_stamp datetime,
 creator_user varchar (200)
 );
 
-
+create table candidate_qualification(
+id int primary key ,
+candidate_id int,
+FOREIGN KEY (candidate_id) REFERENCES fellowship_candidate(id),
+diploma varchar (200),
+degree_name varchar (200),
+is_degree_name_verified boolean,
+employee_decipline varchar (200),
+is_employee_decipline_verified boolean,
+passing_year varchar (100),
+is_passing_year_verified boolean,
+aggregate_percentage varchar (100),
+final_year_percentage varchar (100),
+is_final_year_percentage_verified boolean,
+training_institute varchar (200),
+is_training_institute_verified boolean,
+training_duration_month varchar (100),
+is_training_duration_month_verified boolean ,
+other_training varchar (200),
+is_other_training_verified boolean,
+creator_stamp datetime,
+creator_user varchar (200)
+);
