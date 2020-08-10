@@ -189,3 +189,22 @@ is_other_training_verified boolean,
 creator_stamp datetime,
 creator_user varchar (200)
 );
+
+alter table candidate_qualification modify id int not null auto_increment;
+alter table candidate_qualification modify candidate_id int not null;
+alter table candidate_qualification modify diploma varchar (200) not null;
+alter table candidate_qualification modify degree_name varchar (200) not null;
+alter table candidate_qualification modify is_degree_name_verified boolean not null;
+alter table candidate_qualification modify employee_decipline varchar (200) not null;
+alter table candidate_qualification modify is_employee_decipline_verified boolean not null;
+alter table candidate_qualification modify passing_year varchar (100) not null;
+alter table candidate_qualification modify is_passing_year_verified boolean not null;
+alter table candidate_qualification modify aggregate_percentage varchar (100) not null;
+alter table candidate_qualification modify final_year_percentage varchar (100) not null;
+alter table candidate_qualification modify is_final_year_percentage_verified boolean not null;
+alter table candidate_qualification modify training_institute varchar (200) not null;
+alter table candidate_qualification modify is_training_institute_verified boolean not null;
+alter table candidate_qualification modify other_training varchar (200) not null;
+alter table candidate_qualification modify is_other_training_verified boolean not null;
+alter table candidate_qualification modify creator_stamp datetime not null;
+alter table candidate_qualification modify creator_user varchar (200) not null;
