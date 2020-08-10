@@ -14,6 +14,16 @@ creator_stamp DATETIME,
 creator_user varchar (200)
 );
 
+alter table userdetails modify id int not null auto_increment;
+alter table userdetails modify email varchar(200) not null ;
+alter table userdetails modify first_name varchar (200) not null ;
+alter table userdetails modify last_name varchar (200) not null ;
+alter table userdetails modify password varchar (200) not null ;
+alter table userdetails modify contact_number varchar (10) not null ;
+alter table userdetails modify verified boolean not null;
+alter table userdetails modify creator_stamp DATETIME not null;
+alter table userdetails modify creator_user varchar (200) not null;
+
 create table hiredCandidate(
 id int primary key,
 first_name varchar (200),
