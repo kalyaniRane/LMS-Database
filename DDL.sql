@@ -320,3 +320,15 @@ creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
 
+create table lab_threshold (
+id int not null primary key auto_increment,
+lab_id int not null,
+foreign key (lab_id) references lab (id),
+lab_capacity varchar (50) not null,
+lead_threshold varchar (50) not null,
+ideation_engg_threshold varchar (50) not null,
+buddy_engg_threshold varchar (50) not null,
+status varchar (10) not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
