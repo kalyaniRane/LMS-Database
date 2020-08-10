@@ -54,3 +54,14 @@ INSERT INTO `candidate_document` VALUES
 (4,4,'type1','mnop/qrst','Pending','2020-07-10','Kalyni'),
 (5,5,'type3','qrst/uvwx','Received','2020-07-10','Kalyni'),
 (6,6,'type2','uvwx/xyz','Received','2020-07-10','Kalyni');
+
+INSERT INTO `company` VALUES
+(1,'TCS','Samrat Business Park','Mumbai','A','2020-07-10','Kalyani'),
+(2,'Capgemeni','Hinjewadi','Pune','A','2020-07-10','Kalyani'),
+(3,'Infosys','Mighty Tower','Banglore','A','2020-07-10','Kalyani'),
+(4,'Mphasis','Shivaji Business Center','Chennai','A','2020-07-10','Kalyani'),
+(5,'Mindtree','Lower Parel','Delhi','A','2020-07-10','Kalyani'),
+(6,'Cognizant','Eden Garden','Kolkata','A','2020-07-10','Kalyani'),
+(7,'Datamatics','Postal colony','Mumbai','A','2020-07-10','Kalyani'),
+(8,'Thoughtworks','Indian oil','Gurgaon','A','2020-07-10','Kalyani');
+
