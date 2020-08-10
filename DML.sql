@@ -65,3 +65,9 @@ INSERT INTO `company` VALUES
 (7,'Datamatics','Postal colony','Mumbai','A','2020-07-10','Kalyani'),
 (8,'Thoughtworks','Indian oil','Gurgaon','A','2020-07-10','Kalyani');
 
+INSERT INTO `app_parameter` VALUES 
+(1,'DOC_STATUS','PND','Pending','A','Amit','2020-02-10','2020-07-10','Kalyani',1),
+(2,'DOC_STATUS','RCEVD','Received','A','Pritam','2020-03-10','2020-07-10','Kalyani',2),
+(3,'CUR_STATUS','ACTV','Active','A','Junaid','2020-04-10','2020-07-10','Kalyani',1),
+(4,'CUR_STATUS','IACTV','Inactive','A','Amit','2020-05-12','2020-07-10','Kalyani',1);
+
