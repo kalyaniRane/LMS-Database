@@ -308,3 +308,15 @@ status boolean not null,
 creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
+
+create table mentor_tech_stack (
+id int not null primary key auto_increment,
+mentor_id int not null ,
+foreign key (mentor_id) references mentor (id),
+tech_stack_id int not null,
+foreign key (tech_stack_id) references tech_stack (id),
+status varchar (10) not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
+
