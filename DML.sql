@@ -71,3 +71,8 @@ INSERT INTO `app_parameter` VALUES
 (3,'CUR_STATUS','ACTV','Active','A','Junaid','2020-04-10','2020-07-10','Kalyani',1),
 (4,'CUR_STATUS','IACTV','Inactive','A','Amit','2020-05-12','2020-07-10','Kalyani',1);
 
+INSERT INTO `tech_stack` VALUES 
+(1,'Java','desktop/image/abc','Spring','A','2020-07-07','Kalyani'),
+(2,'Mobile','desktop/image/xyz','Kotlin','A','2020-07-07','Kalyani'),
+(3,'Php','desktop/image/pqr','Laravel','A','2020-07-07','Kalyani'),
+(4,'Python','desktop/image/aqaz','Django','A','2020-07-07','Kalyani');
