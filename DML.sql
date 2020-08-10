@@ -46,3 +46,11 @@ INSERT INTO `candidate_qualification` VALUES
 (4,4,'Comps','BE COM',1,'average',0,2018,1,64,66,1,'KTC',1,12,1,'none',1,'2020-07-10','Kalyni'),
 (5,5,'IT','BE COM',1,'good',0,2017,1,76,79,1,'KTC',1,8,1,'none',1,'2020-07-11','Kalyni'),
 (6,6,'Comps','MCA',1,'good',1,2016,1,85,89,1,'ARKP',1,12,1,'none',1,'2020-07-11','Kalyni');
+
+INSERT INTO `candidate_document` VALUES 
+(1,1,'type1','abcd/efgh','Pending','2020-07-10','Kalyni'),
+(2,2,'type2','efgh/ijkl','Received','2020-07-10','Kalyni'),
+(3,3,'type3','ijkl/mnop','Received','2020-07-10','Kalyni'),
+(4,4,'type1','mnop/qrst','Pending','2020-07-10','Kalyni'),
+(5,5,'type3','qrst/uvwx','Received','2020-07-10','Kalyni'),
+(6,6,'type2','uvwx/xyz','Received','2020-07-10','Kalyni');
