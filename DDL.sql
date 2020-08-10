@@ -332,3 +332,30 @@ status varchar (10) not null,
 creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
+
+create table company_requirement (
+id int not null primary key auto_increment,
+company_id int not null,
+foreign key (company_id) references company (id),
+requested_month varchar (10) not null,
+city varchar (20) not null,
+is_doc_verification boolean not null,
+requirement_doc_path varchar (20) not null,
+no_of_engg int not null,
+tech_stack_id int not null,
+foreign key (tech_stack_id) references tech_stack (id),
+tech_type_id int not null,
+foreign key (tech_type_id) references tech_type (id),
+maker_program_id int not null,
+foreign key (maker_program_id) references maker_program (id),
+lead_id int not null,
+foreign key (lead_id) references mentor (id),
+ideation_engg_id int not null,
+foreign key (lead_id) references mentor (id),
+buddy_engg_id int not null,
+foreign key (lead_id) references mentor (id),
+special_remark varchar (20) not null,
+status varchar (10) not null,
+creator_stamp datetime not null,
+creator_user varchar (20) not null
+);
