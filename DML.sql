@@ -81,3 +81,13 @@ INSERT INTO `tech_type` VALUES
 (1,'Full Stack','A','2020-07-07','Kalyani'),
 (2,'Backend','A','2020-07-07','Kalyani'),
 (3,'Frontend','A','2020-07-07','Kalyani');
+
+INSERT INTO `maker_program` VALUES 
+(1,'program1','type1',' http://program1',1,1,0,'abcsddf',1,'2019-01-12','Kalyani'),
+(2,'program2','type2',' http://program2',2,2,1,'ddaffaf',1,'2019-02-05','Kalyani'),
+(3,'program3','type3',' http://program3',3,3,0,'saffsag',1,'2019-04-23','Kalyani'),
+(4,'program4','type4',' http://program4',4,1,1,'aggs',1,'2019-09-15','Kalyani'),
+(5,'program5','type5',' http://program5',1,1,1,'afssg',1,'2020-01-03','Kalyani'),
+(6,'program6','type6',' http://program6',3,3,1,'gewwh',1,'2020-03-29','Kalyani');
+
+
