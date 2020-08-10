@@ -45,6 +45,25 @@ creator_stamp datetime ,
 creator_user varchar (200)
 );
 
+alter table hiredcandidate modify id int not null auto_increment;
+alter table hiredcandidate modify first_name varchar (200) not null;
+alter table hiredcandidate modify middle_name varchar (200) not null;
+alter table hiredcandidate modify last_name varchar (200) not null;
+alter table hiredcandidate modify email_id varchar (200) not null;
+alter table hiredcandidate modify hired_city varchar (200) not null;
+alter table hiredcandidate modify degree varchar (200) not null;
+alter table hiredcandidate modify hired_date datetime not null;
+alter table hiredcandidate modify mobile_number varchar (10) not null;
+alter table hiredcandidate modify permanent_pincode int not null;
+alter table hiredcandidate modify hired_lab varchar (200) not null;
+alter table hiredcandidate modify attitude varchar (200) not null;
+alter table hiredcandidate modify communication_remark varchar (200) not null;
+alter table hiredcandidate modify knowledge_remark varchar (200) not null;
+alter table hiredcandidate modify aggregate_remark varchar (200) not null;
+alter table hiredcandidate modify status varchar (200) not null;
+alter table hiredcandidate modify creator_stamp DATETIME not null;
+alter table hiredcandidate modify creator_user varchar (200) not null;
+
 create table fellowship_candidate(
 id int primary key,
 first_name varchar (200),
@@ -80,6 +99,7 @@ educational_information varchar(200),
 document_status boolean,
 remark varchar (200)
 );
+
 
 create table candidate_bank_details(
 id int primary key,
