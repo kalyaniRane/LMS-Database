@@ -219,3 +219,23 @@ status varchar (200) not null,
 creator_stamp datetime not null,
 creator_user varchar (200) not null
 );
+
+create table company (
+id int not null primary key auto_increment,
+name varchar (200) not null,
+address varchar (500) not null,
+location varchar (200) not null,
+status varchar (200) not null,
+creator_stamp datetime not null,
+creator_user varchar (200)
+);
+
+create table tech_stack (
+id int not null primary key auto_increment,
+tech_name varchar (100) not null,
+image_path varchar (100) not null,
+framework varchar (100) not null,
+current_status varchar (50) not null,
+creator_stamp datetime not null,
+creator_user varchar (100)
+);
