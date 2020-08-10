@@ -297,3 +297,14 @@ status boolean not null,
 creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
+
+create table mentor_ideation_map (
+id int not null primary key auto_increment,
+parent_id int not null,
+foreign key (parent_id) References mentor (id),
+mentor_id int not null,
+foreign key (mentor_id) References mentor (id),
+status boolean not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
