@@ -277,3 +277,12 @@ creator_user varchar (50) not null,
 seq_number int not null
 );
 
+create table lab (
+id int not null primary key auto_increment,
+name varchar (50) not null,
+location varchar (50) not null,
+address varchar (50) not null,
+status boolean not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
