@@ -38,3 +38,11 @@ INSERT INTO `candidate_bank_details` VALUES
 (4,4,'Pritam','789456965451',1,'AXS01',1,'KJLHQ1W',1,'156465432132',1,'2020-07-10','Kalyni'),
 (5,5,'Junaid','123456789012',1,'BOB10',1,'BPQAA10',1,'541245784112',1,'2020-07-10','Kalyni'),
 (6,6,'Izhaan','655465412122',1,'ICIC12',1,'KJHYOSS',1,'446521321321',1,'2020-07-10','Kalyni');
+
+INSERT INTO `candidate_qualification` VALUES 
+(1,1,'Comps','MCA',1,'good',1,2018,1,65,76,1,'ARKP',1,6,1,'none',1,'2020-07-10','Kalyni'),
+(2,2,'Comm','BE COM',1,'good',1,2019,1,73,80,1,'KTC',1,8,1,'none',1,'2020-07-10','Kalyni'),
+(3,3,'IT','BE COM',1,'bad',1,2019,1,56,60,1,'ARKP',1,6,1,'none',1,'2020-07-10','Kalyni'),
+(4,4,'Comps','BE COM',1,'average',0,2018,1,64,66,1,'KTC',1,12,1,'none',1,'2020-07-10','Kalyni'),
+(5,5,'IT','BE COM',1,'good',0,2017,1,76,79,1,'KTC',1,8,1,'none',1,'2020-07-11','Kalyni'),
+(6,6,'Comps','MCA',1,'good',1,2016,1,85,89,1,'ARKP',1,12,1,'none',1,'2020-07-11','Kalyni');
