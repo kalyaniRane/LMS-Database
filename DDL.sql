@@ -208,3 +208,14 @@ alter table candidate_qualification modify other_training varchar (200) not null
 alter table candidate_qualification modify is_other_training_verified boolean not null;
 alter table candidate_qualification modify creator_stamp datetime not null;
 alter table candidate_qualification modify creator_user varchar (200) not null;
+
+create table candidate_document (
+id int not null primary key auto_increment,
+candidate_id int not null,
+FOREIGN KEY (candidate_id) REFERENCES fellowship_candidate(id),
+doc_type varchar (200) not null,
+doc_path varchar (200) not null,
+status varchar (200) not null,
+creator_stamp datetime not null,
+creator_user varchar (200) not null
+);
