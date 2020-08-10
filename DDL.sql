@@ -71,4 +71,21 @@ document_status boolean,
 remark varchar (200)
 );
 
+create table candidate_bank_details(
+id int primary key,
+candidate_id int,
+FOREIGN KEY (candidate_id) REFERENCES fellowship_candidate(id),
+name varchar (200),
+account_number varchar (200),
+is_account_number_verified boolean,
+ifsc_code varchar (200),
+ifsc_code_verified boolean,
+pan_number varchar (200),
+pan_number_verified boolean,
+addhaar_number varchar (200),
+addhaar_number_verified boolean,
+creator_stamp datetime,
+creator_user varchar (200)
+);
+
 
