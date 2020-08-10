@@ -359,3 +359,15 @@ status varchar (10) not null,
 creator_stamp datetime not null,
 creator_user varchar (20) not null
 );
+
+create table candidate_stack_assignment (
+id int not null primary key auto_increment,
+requirement_id int not null,
+foreign key (requirement_id) references company (id),
+candidate_id int not null,
+foreign key (candidate_id) references fellowship_candidate (id),
+assign_date datetime not null,
+status varchar (10) not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
