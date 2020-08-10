@@ -247,3 +247,19 @@ current_status varchar (50) not null,
 creator_stamp datetime not null,
 creator_user varchar (50) not null
 );
+
+create table maker_program (
+id int not null primary key auto_increment,
+program_name varchar (50) not null,
+program_type varchar (50) not null,
+program_link varchar(50) not null,
+tech_stack_id int not null,
+Foreign key (tech_stack_id) References tech_stack (id),
+tech_type_id int not null,
+foreign key (tech_type_id) References tech_type (id),
+is_progam_approved boolean not null,
+description varchar (50) not null,
+status boolean not null,
+creator_stamp datetime not null,
+creator_user varchar (50) not null
+);
