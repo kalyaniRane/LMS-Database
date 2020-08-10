@@ -90,4 +90,7 @@ INSERT INTO `maker_program` VALUES
 (5,'program5','type5',' http://program5',1,1,1,'afssg',1,'2020-01-03','Kalyani'),
 (6,'program6','type6',' http://program6',3,3,1,'gewwh',1,'2020-03-29','Kalyani');
 
-
+INSERT INTO `lab` VALUES 
+(1,'BridgeLabz','Mumbai','Malhotra Chambers',1,'2020-07-07','Kalyani'),
+(2,'BridgeLabz','Pune','Nal Stop',0,'2020-07-07','Kalyani'),
+(3,'BridgeLabz','Banglore','Indian Oil Nagar',1,'2020-07-07','Kalyani');
