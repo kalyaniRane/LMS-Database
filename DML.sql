@@ -76,3 +76,8 @@ INSERT INTO `tech_stack` VALUES
 (2,'Mobile','desktop/image/xyz','Kotlin','A','2020-07-07','Kalyani'),
 (3,'Php','desktop/image/pqr','Laravel','A','2020-07-07','Kalyani'),
 (4,'Python','desktop/image/aqaz','Django','A','2020-07-07','Kalyani');
+
+INSERT INTO `tech_type` VALUES 
+(1,'Full Stack','A','2020-07-07','Kalyani'),
+(2,'Backend','A','2020-07-07','Kalyani'),
+(3,'Frontend','A','2020-07-07','Kalyani');
