@@ -138,3 +138,10 @@ INSERT INTO `company_requirement` VALUES
 (2,2,'December','Mumbai',1,'aghf/hhjbk',25,2,2,2,5,8,2,'good','A','2020-07-10 00:00:00','Kalyani'),
 (3,3,'March','Pune',1,'kjjhh/hvjh',15,1,1,1,6,8,3,'good','A','2020-07-10 00:00:00','Kalyani'),
 (4,4,'May','Banglore',1,'kgjg/jkgj',10,2,3,3,7,9,1,'good','A','2020-07-10 00:00:00','Kalyani');
+
+INSERT INTO `candidate_stack_assignment` VALUES 
+(1,1,1,'2020-01-15','A','2020-01-15 00:00:00','Kalyani'),
+(2,2,2,'2020-02-20','A','2020-02-20 00:00:00','Kalyani'),
+(3,1,3,'2020-04-10','A','2020-04-10 00:00:00','Kalyani'),
+(4,3,4,'2020-04-15','A','2020-04-15 00:00:00','Kalyani'),
+(5,2,5,'2020-04-29','A','2020-04-29 00:00:00','Kalyani');
