@@ -360,6 +360,12 @@ creator_stamp datetime not null,
 creator_user varchar (20) not null
 );
 
+ALTER TABLE company_requirement
+ADD FOREIGN KEY (ideation_engg_id) REFERENCES mentor (id);
+
+ALTER TABLE company_requirement
+ADD FOREIGN KEY (buddy_engg_id) REFERENCES mentor (id);
+
 create table candidate_stack_assignment (
 id int not null primary key auto_increment,
 requirement_id int not null,
