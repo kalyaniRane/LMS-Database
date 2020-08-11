@@ -133,4 +133,8 @@ INSERT INTO `mentor_tech_stack` VALUES
 (8,8,2,'done','2020-07-09 00:00:00','Kalyani'),
 (9,9,3,'done','2020-07-09 00:00:00','Kalyani');
 
-
+INSERT INTO `company_requirement` VALUES 
+(1,1,'January','Mumbai',1,'abcd/xyz',20,2,1,1,4,8,1,'good','A','2020-07-10 00:00:00','Kalyani'),
+(2,2,'December','Mumbai',1,'aghf/hhjbk',25,2,2,2,5,8,2,'good','A','2020-07-10 00:00:00','Kalyani'),
+(3,3,'March','Pune',1,'kjjhh/hvjh',15,1,1,1,6,8,3,'good','A','2020-07-10 00:00:00','Kalyani'),
+(4,4,'May','Banglore',1,'kgjg/jkgj',10,2,3,3,7,9,1,'good','A','2020-07-10 00:00:00','Kalyani');
