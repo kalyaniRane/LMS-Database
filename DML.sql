@@ -122,3 +122,15 @@ INSERT INTO `mentor_ideation_map` VALUES
 (8,7,8,1,'2020-07-08','Kalyani'),
 (9,7,9,1,'2020-07-09','Kalyani');
 
+INSERT INTO `mentor_tech_stack` VALUES 
+(1,1,1,'done','2020-07-01 00:00:00','Kalyani'),
+(2,2,2,'done','2020-07-02 00:00:00','Kalyani'),
+(3,3,3,'done','2020-07-07 00:00:00','Kalyani'),
+(4,4,1,'done','2020-07-07 00:00:00','Kalyani'),
+(5,5,2,'done','2020-07-08 00:00:00','Kalyani'),
+(6,6,3,'done','2020-07-08 00:00:00','Kalyani'),
+(7,7,1,'done','2020-07-09 00:00:00','Kalyani'),
+(8,8,2,'done','2020-07-09 00:00:00','Kalyani'),
+(9,9,3,'done','2020-07-09 00:00:00','Kalyani');
+
+
