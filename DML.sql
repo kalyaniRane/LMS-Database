@@ -100,3 +100,14 @@ INSERT INTO `lab_threshold` VALUES
 (2,2,250,20,15,40,'A','2020-07-10','Kalyani'),
 (3,3,400,30,25,70,'A','2020-07-10','Kalyani');
 
+INSERT INTO `mentor` VALUES 
+(1,'Rohan','buddy',1,1,'2020-07-07','Kalyani'),
+(2,'Rohini','buddy',2,1,'2020-07-07','Kalyani'),
+(3,'Nisha','buddy',3,1,'2020-07-07','Kalyani'),
+(4,'Shweta','lead',1,1,'2020-07-07','Kalyani'),
+(5,'Jaspreet','lead',2,1,'2020-07-08','Kalyani'),
+(6,'Aniket','lead',3,1,'2020-07-08','Kalyani'),
+(7,'Sunil','lead',1,1,'2020-07-09','Kalyani'),
+(8,'Pooja','ideation',2,1,'2020-07-09','Kalyani'),
+(9,'Sheetal','ideation',3,1,'2020-07-10','Kalyani');
+
