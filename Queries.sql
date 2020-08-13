@@ -69,3 +69,61 @@ ON company_requirement.buddy_engg_id = mentor2.id
 JOIN tech_stack
 ON tech_stack.id = company_requirement.tech_stack_id
 WHERE fellowship_candidate.id = 5;
+
+DELIMITER //
+
+CREATE PROCEDURE getAllUserEngagementMIS()
+BEGIN
+	select * from lms.user_engagement_mis;
+END //
+
+DELIMITER ;
+
+call getAllUserEngagementMIS();
+
+DELIMITER //
+
+CREATE PROCEDURE getUserBootTimeNull ()
+BEGIN
+	select candidate_id from lms.user_engagement_mis where boot_time is null;
+END //
+
+DELIMITER ;
+
+call getUserBootTimeNull ();
+
+-- 3 find all candidate which is present today --
+DELIMITER //
+CREATE PROCEDURE getCandidateWhichIsPresentToday ()
+BEGIN
+	select * from fellowship_candidate  where id IN (select candidate_id from user_engagement_mis where Date_Time is not null);
+END //
+DELIMITER ;
+
+call getCandidateWhichIsPresentToday();
+
+-- 4 find all candidate which is come late today --
+DELIMITER //
+CREATE PROCEDURE getCandidateWhichLateToday ()
+BEGIN
+	select * from fellowship_candidate where id IN (select candidate_id from user_engagement_mis where time(Date_Time) > '09:00:59');
+END //
+DELIMITER ;
+
+call getCandidateWhichLateToday ();
+
+-- 6 find all candidate which come early today --
+DELIMITER //
+CREATE PROCEDURE getCandidateWhichEarlyToday ()
+BEGIN
+	select * from fellowship_candidate where id IN (select candidate_id from user_engagement_mis where time(Date_time) < '09:00:59');
+END //
+DELIMITER ;
+
+call getCandidateWhichEarlyToday ();
+
+
+
+
+
+
